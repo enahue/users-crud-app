@@ -7,20 +7,22 @@
   min-width: 280px;
   border-radius: 10px;
   gap: 20px;
-  text-align: center;
+  /* text-align: center; */
   background: linear-gradient(#73e664, #6d73b4);
 }
 
 .userCard__title {
   font-size: 20px;
   margin: 5px 0;
+  color: rgb(63, 63, 60);
 }
+
 
 .userCard__list {
   line-height: 30px;
 }
 
-.userCard__flex2 {
+.userCard__flex-btn {
   display: flex;
   gap: 25px;
   justify-content: center;
@@ -66,7 +68,7 @@
     margin: 5px 0;
   }
 
-  .userCard__flex2 {
+  .userCard__flex-btn {
     display: flex;
     flex-direction: column;
     justify-content: center;

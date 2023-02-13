@@ -82,6 +82,7 @@
 .modalForm__label {
   display: block;
   font-size: 17px;
+  color: white;
 }
 
 .modalForm__input {

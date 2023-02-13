@@ -18,7 +18,7 @@ const UserCard = ({user, deleteUser, setUpdatingUser, handleClickShowModal}) => 
         <li><i className='bx bxs-gift userCard__icon'></i>   {user.birthday}</li>
       </ul>
       </div>
-      <div className='userCard__flex2'>
+      <div className='userCard__flex-btn'>
         <button className='userCard__btn red' onClick={() => deleteUser(user.id)}><i className='bx bx-trash'></i></button>
         <button className='userCard__btn' onClick={handleClickEdit}><i className='bx bx-pencil'></i></button>
       </div>      
