@@ -1,12 +1,13 @@
 .modalForm {
     position: fixed;
-    background-color: rgba(0, 0, 0, 0.561);
+    /* background-color: rgba(0, 0, 0, 0.561); */
     top: 0;
     height: 100vh;
     left: 0;
     right: 0;
     place-content: center;
     display: none;
+    backdrop-filter: blur(2px);
 }
 
 .activeForm {
@@ -14,18 +15,19 @@
 }
 
 .modalForm__form{
-    background-color: #fff;
+    background-color: #6d6363;
     padding: 20px;
     position: relative;
     display: flex;
     flex-direction: column;
     gap: 15px;
-    border-radius: 4px;
+    border-radius: 8px;
 }
 
 .modalForm__title {
     font-size: 30px;
     margin: 10px 0;
+    color: white;
 }
 
 .modalForm__x {
@@ -37,11 +39,11 @@
 }
 
 .modalForm__x:hover {
-    color: rgb(178, 0, 0);
+    color: rgb(184, 99, 19);
 }
 
 .modalForm__btn { 
-    background-color: var(--purple);
+    background-color: var(--green);
     border: none;
     color: #fff;
     padding: 10px;
@@ -54,7 +56,7 @@
 }
 
 .modalForm__btn:hover {
-    background-color: var(--medium-purple);
+    background-color: var(--full-green);
 }
 
 .modalForm__div {
@@ -105,7 +107,9 @@ justify-content: center;
     display: none;
 }
 
-
+.bx{
+    color: white;
+}
 @media (min-width: 768px) {
     
 .modalForm__divflex i {

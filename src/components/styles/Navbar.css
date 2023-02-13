@@ -9,6 +9,7 @@
 .navbar__title {
     font-size: 28px; 
     margin: 10px 0;
+    color: white;
 }
 
 @media (min-width: 768px) {
@@ -23,7 +24,7 @@
  }
 
 .navbar__btn {
-    background-color: var(--purple);
+    background-color: var(--green);
     color: #fff;
     border: none;
     padding: 10px 20px;
@@ -33,5 +34,6 @@
 }
 
 .navbar__btn:hover {
-    background-color: var(--medium-purple);
+    background-color: var(--full-green);
 }
+

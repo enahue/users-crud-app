@@ -1,14 +1,17 @@
 :root {
     --principal-font: 'Roboto', sans-serif;
     --purple: #555A88;
-    --medium-purple: #636891;
     --grey:  #c6c6c6;
+    --medium-purple: #636891;
     --medium-grey:  rgb(173, 173, 173);
     --solid-grey: rgb(100, 100, 100);
-  }
-  
+    --green: #03c023;
+    --full-green: #06a120;
+    --full-grey: #8f8c8c;
+}
   body {
     margin: 0;
+    background-color: #474646;
   }
   
   html {
