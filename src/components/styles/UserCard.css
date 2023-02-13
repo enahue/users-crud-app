@@ -1,81 +1,75 @@
 .userCard {
-    padding: 15px;
-    width: 300px;
-    justify-content: space-between;
-    background-color: var(--full-grey);
-    margin: 10px auto;
-    max-width: 350px;
-    min-width: 280px;
-    border-radius: 10px;
-    gap: 20px;
-    text-align: center;
-
+  padding: 15px;
+  width: 300px;
+  justify-content: space-between;
+  margin: 10px auto;
+  max-width: 350px;
+  min-width: 280px;
+  border-radius: 10px;
+  gap: 20px;
+  text-align: center;
+  background: linear-gradient(#73e664, #6d73b4);
 }
 
-
 .userCard__title {
-    font-size: 20px;
-    margin: 5px 0;
+  font-size: 20px;
+  margin: 5px 0;
 }
 
 .userCard__list {
-    line-height: 30px;
+  line-height: 30px;
 }
 
 .userCard__flex2 {
-    display: flex;
-    gap: 25px;
-    justify-content: center;
-    margin: 15px 0 5px 0;
+  display: flex;
+  gap: 25px;
+  justify-content: center;
+  margin: 15px 0 5px 0;
 }
 
 .userCard__btn {
-    font-size: 20px;
-    /* border: none; */
-    border: 1px solid #111;
-    background-color: transparent;
-    border-radius: 10px;
-    padding-top: 4px;
-    cursor: pointer;
-    transition: background 300ms ease;
-    font-weight: bold;
+  font-size: 20px;
+  border: 1px solid #0c1bf3a9;
+  background: linear-gradient(#73e664, #6d73b4);
+  border-radius: 10px;
+  padding-top: 4px;
+  cursor: pointer;
+  transition: background 300ms ease;
+  font-weight: bold;
 }
-
 
 .userCard__btn:hover {
-    background-color: var(--medium-grey);
+  background: linear-gradient(#63c256, #5d6297);
 }
 
-.userCard__icon{
-    font-size: 20px;
-    margin-right: 10px;
+.userCard__icon {
+  font-size: 20px;
+  margin-right: 10px;
 }
-.bx-trash{
-    color: rgb(145, 11, 11);
+.bx-trash {
+  color: rgb(173, 10, 10);
 }
-.bx-pencil{
-    color: rgb(228, 224, 17);
+.bx-pencil {
+  color: rgb(238, 234, 10);
 }
-
 
 @media (min-width: 655px) {
-    .userCard {
-      display: flex;
-      width: 320px;
-      padding: 20px;
-      text-align:left;
-    }
-    
-    .userCard__title {
-        font-size: 21px;
-        margin: 5px 0;
-    }
-  
-    
-    .userCard__flex2 {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        margin: 0;
-    }
-    }
+  .userCard {
+    display: flex;
+    width: 320px;
+    padding: 20px;
+    text-align: left;
+  }
+
+  .userCard__title {
+    font-size: 21px;
+    margin: 5px 0;
+  }
+
+  .userCard__flex2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0;
+  }
+}
