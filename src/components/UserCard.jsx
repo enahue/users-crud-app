@@ -19,8 +19,8 @@ const UserCard = ({user, deleteUser, setUpdatingUser, handleClickShowModal}) => 
       </ul>
       </div>
       <div className='userCard__flex-btn'>
-        <button className='userCard__btn red' onClick={() => deleteUser(user.id)}><i className='bx bx-trash'></i></button>
         <button className='userCard__btn' onClick={handleClickEdit}><i className='bx bx-pencil'></i></button>
+        <button className='userCard__btn red' onClick={() => deleteUser(user.id)}><i className='bx bx-trash'></i></button>
       </div>      
     </article>
     </div>
