@@ -7,7 +7,7 @@
   right: 0;
   place-content: center;
   display: none;
-  backdrop-filter: blur(2px);
+  backdrop-filter: blur(3px);
 }
 
 .activeForm {
@@ -33,7 +33,9 @@
 .modalForm__title {
   font-size: 30px;
   margin: 10px 0;
-  color: rgb(29, 28, 28);
+  color: rgb(255, 255, 255);
+  /* color: transparent; */
+  /* background-color: transparent; */
 }
 
 .modalForm__x {
