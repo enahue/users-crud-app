@@ -8,11 +8,12 @@
     --green: #03c023;
     --full-green: #06a120;
     --full-grey: #8f8c8c;
-    background-image: url("./assets/background-usr2.svg");
+    background-color: #062E61;
+    /* background-image: url("./assets/background-usr2.svg");
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-attachment: fixed;
+    background-attachment: fixed; */
 
 }
   body {
