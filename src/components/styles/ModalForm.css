@@ -28,6 +28,7 @@
   backdrop-filter: blur(17.1px);
   -webkit-backdrop-filter: blur(17.1px);
   border: 1px solid rgba(255, 255, 255, 0.3);
+  overflow: auto;
 }
 
 .modalForm__title {
@@ -117,6 +118,12 @@
 
 .bx {
   color: white;
+}
+
+.fields-validated{
+  margin: 0;
+  font-size: 13px;
+  color: rgb(177, 24, 24);
 }
 @media (min-width: 768px) {
   .modalForm__divflex i {
