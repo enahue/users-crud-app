@@ -29,7 +29,7 @@
 }
 
 .userCard__flex-btn {
-  /* display: flex; */
+  display: flex;
   gap: 25px;
   justify-content: center;
   margin: 15px 0 5px 0;
@@ -75,7 +75,7 @@
 
 @media (min-width: 655px) {
   .userCard {
-    display: flex;
+    /* display: flex; */
     width: 320px;
     padding: 20px;
     text-align: left;
