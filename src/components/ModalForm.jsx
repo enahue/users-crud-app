@@ -106,24 +106,24 @@ const ModalForm = ({
         <div className='modalForm__div row'>
           <label className='modalForm__label' htmlFor="">Email</label>
           <i className='bx bxs-envelope modalForm__icon2'></i><input className='modalForm__input' placeholder='Email' type="email" {...register("email", emailValidated)}  />
+          </div>
           {
             errors.email && <p className='fields-validated'>{errors.email.message}</p>
           }
-        </div>
         <div className='modalForm__div row'>
           <label className='modalForm__label' htmlFor="">Password</label>
           <i className='bx bxs-lock modalForm__icon2'></i><input className='modalForm__input' placeholder='Password' type="password" {...register("password", passwordValidated)} />
+          </div>
           {
             errors.password && <p className='fields-validated'>{errors.password.message}</p>
           }
-        </div>
         <div className='modalForm__div row'>
           <label className='modalForm__label' htmlFor="">Birthday</label>
           <i className='bx bxs-gift modalForm__icon2'></i><input className='modalForm__input' type="date" {...register("birthday", birthdayValidated)} />
+          </div>
           {
             errors.birthday && <p className='fields-validated'>{errors.birthday.message}</p>
           }
-        </div>
         <div className='modalForm__center'>
         <button className='modalForm__btn'>{updatingUser ? "Save changes" : "Add new user"}</button>
         </div>
